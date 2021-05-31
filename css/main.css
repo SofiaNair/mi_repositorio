@@ -1,0 +1,555 @@
+.titulo {
+  animation-name: aparecer;
+  animation-duration: 5s; }
+
+.textoParrafo {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end; }
+
+.tablatalles_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font: "Orelega One"; }
+
+.carousel_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  text-align: center; }
+
+.conocenos_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.lookbook_texto {
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_texto-modificado {
+  text-align: start; }
+
+.conocenos_titulo {
+  text-align: start;
+  font-family: "Orelega One"; }
+
+.conocenos_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.video_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.video_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo {
+  font-family: "Orelega One"; }
+
+.tienda_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo-seleccionados {
+  font-family: "Orelega One"; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.titulo {
+  animation-name: aparecer;
+  animation-duration: 5s; }
+
+.textoParrafo {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end; }
+
+.tablatalles_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font: "Orelega One"; }
+
+.carousel_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  text-align: center; }
+
+.conocenos_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.lookbook_texto {
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_texto-modificado {
+  text-align: start; }
+
+.conocenos_titulo {
+  text-align: start;
+  font-family: "Orelega One"; }
+
+.conocenos_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.video_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.video_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo {
+  font-family: "Orelega One"; }
+
+.tienda_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo-seleccionados {
+  font-family: "Orelega One"; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.lookbook {
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
+
+.video {
+  background-color: blanchedalmond;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
+
+.video-responsive {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative; }
+
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+.conocenos {
+  background: url(../images/fondo1.jpeg);
+  align-content: flex-start; }
+
+.titulo {
+  animation-name: aparecer;
+  animation-duration: 5s; }
+
+.textoParrafo {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end; }
+
+.tablatalles_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font: "Orelega One"; }
+
+.carousel_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  text-align: center; }
+
+.conocenos_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.lookbook_texto {
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_texto-modificado {
+  text-align: start; }
+
+.conocenos_titulo {
+  text-align: start;
+  font-family: "Orelega One"; }
+
+.conocenos_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.video_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.video_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo {
+  font-family: "Orelega One"; }
+
+.tienda_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo-seleccionados {
+  font-family: "Orelega One"; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.titulo {
+  animation-name: aparecer;
+  animation-duration: 5s; }
+
+.textoParrafo {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end; }
+
+.tablatalles_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font: "Orelega One"; }
+
+.carousel_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  text-align: center; }
+
+.conocenos_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.lookbook_texto {
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_texto-modificado {
+  text-align: start; }
+
+.conocenos_titulo {
+  text-align: start;
+  font-family: "Orelega One"; }
+
+.conocenos_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.video_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.video_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo {
+  font-family: "Orelega One"; }
+
+.tienda_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo-seleccionados {
+  font-family: "Orelega One"; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.header_nav {
+  background-color: #cf5b8c; }
+
+nav {
+  background-color: #cf5b8c; }
+
+.header {
+  background-color: lightslategrey;
+  color: black;
+  font-family: "Orelega One"; }
+
+.navbar {
+  font-family: "Orelega One"; }
+
+nav {
+  background-color: verdadero; }
+
+.titulo {
+  animation-name: aparecer;
+  animation-duration: 5s; }
+
+.textoParrafo {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end; }
+
+.tablatalles_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font: "Orelega One"; }
+
+.carousel_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  text-align: center; }
+
+.conocenos_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.lookbook_texto {
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_texto-modificado {
+  text-align: start; }
+
+.conocenos_titulo {
+  text-align: start;
+  font-family: "Orelega One"; }
+
+.conocenos_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.video_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.video_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo {
+  font-family: "Orelega One"; }
+
+.tienda_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo-seleccionados {
+  font-family: "Orelega One"; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.row > div {
+  padding: 30px; }
+
+body {
+  background-image: linear-gradient(lightgrey, lightsteelblue); }
+
+footer {
+  background-color: #cf5b8c;
+  color: black;
+  text-align: start;
+  font-family: "Orelega One";
+  font-size: x-small; }
+
+.seguinosRedes {
+  font: "Orelega One";
+  background-color: #cf5b8c;
+  color: black;
+  text-align: start;
+  font-size: medium;
+  font-family: "Orelega One"; }
+
+.tablatalles {
+  background-color: whitesmoke;
+  align-content: space-around;
+  text-align: center; }
+
+.mediosPagos {
+  text-align: start;
+  background-image: url(fondo1.jpeg); }
+
+.cambioS {
+  text-align: start;
+  background-color: whitesmoke; }
+
+.titulo {
+  animation-name: aparecer;
+  animation-duration: 5s; }
+
+.textoParrafo {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end; }
+
+.tablatalles_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font: "Orelega One"; }
+
+.carousel_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  text-align: center; }
+
+.conocenos_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.lookbook_texto {
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_texto-modificado {
+  text-align: start; }
+
+.conocenos_titulo {
+  text-align: start;
+  font-family: "Orelega One"; }
+
+.conocenos_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.video_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.video_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo {
+  font-family: "Orelega One"; }
+
+.tienda_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo-seleccionados {
+  font-family: "Orelega One"; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.header_nav {
+  background-color: #cf5b8c; }
+
+nav {
+  background-color: #cf5b8c; }
+
+@keyframes imagenes {
+  from {
+    transform: rotateY(70deg); } }
+
+.tienda_imagen {
+  width: 90%;
+  margin-left: 40px;
+  margin-top: 30px;
+  animation-name: imagenes;
+  animation-duration: 6s; }
+
+.tienda_imagen-seleccionados {
+  width: 22.5%;
+  height: 22.5%; }
+
+.tienda-seleccionados {
+  text-align: center;
+  align-items: center;
+  background-color: whitesmoke; }
+
+.titulo {
+  animation-name: aparecer;
+  animation-duration: 5s; }
+
+.textoParrafo {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end; }
+
+.tablatalles_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font: "Orelega One"; }
+
+.carousel_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  text-align: center; }
+
+.conocenos_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.lookbook_texto {
+  font-family: 'Courier New', Courier, monospace; }
+
+.lookbook_texto-modificado {
+  text-align: start; }
+
+.conocenos_titulo {
+  text-align: start;
+  font-family: "Orelega One"; }
+
+.conocenos_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.video_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.video_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo {
+  font-family: "Orelega One"; }
+
+.tienda_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.tienda_titulo-seleccionados {
+  font-family: "Orelega One"; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.header_nav {
+  background-color: #cf5b8c; }
+
+nav {
+  background-color: #cf5b8c; }

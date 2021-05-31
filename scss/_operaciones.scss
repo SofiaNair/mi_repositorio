@@ -1,0 +1,20 @@
+@import "tipografia";
+
+$colorNav: verdadero;
+$ancho: 90%;
+
+.header_nav {
+    @if $colorNav == verdadero {
+        background-color:#cf5b8c;
+    } @else if $colorHeader == falso {
+        background-color: lightgray;
+    }
+}
+nav {
+    @if $colorNav == verdadero {
+        background-color:#cf5b8c;
+    } @else if $colorHeader == falso {
+        background-color: lightgray;
+    }
+}
+

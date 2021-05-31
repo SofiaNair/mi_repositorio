@@ -1,0 +1,41 @@
+@import "tipografia";
+
+.row > div{
+    padding: 30px;
+  }
+body {
+    background-image: linear-gradient(lightgrey, lightsteelblue);
+    
+
+}
+footer{
+    background-color: #cf5b8c;
+    color: black;
+    text-align: start;
+    font-family: $title-font;
+    font-size: x-small;
+    
+}
+.seguinosRedes {
+    font: $title-font;
+    background-color: #cf5b8c;
+    color: black;
+    text-align: start;
+    font-size: medium;
+    font-family: $title-font;
+    
+}
+.tablatalles {
+    background-color: whitesmoke;
+    align-content: space-around;
+    text-align: center;
+}
+.mediosPagos {
+    text-align: start;
+    background-image: url(fondo1.jpeg);
+
+}
+.cambioS {
+    text-align: start;
+    background-color: whitesmoke;
+}

@@ -1,0 +1,21 @@
+@import "tipografia";
+@import "operaciones";
+
+
+
+.header{
+        background-color: lightslategrey;
+        color: black;
+        font-family: $title-font;
+}
+
+
+.navbar {
+        font-family: $title-font;
+
+}
+nav {
+        background-color: $colorNav;
+}
+    
+   

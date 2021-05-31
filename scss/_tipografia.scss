@@ -1,0 +1,71 @@
+$title-font:'Orelega One'; 
+$font-text: 'Courier New', Courier, monospace;
+
+.titulo {
+        animation-name: aparecer;
+        animation-duration: 5s;
+    }
+.textoParrafo {
+    font-family: $font-text;
+    text-align: end;
+}
+.tablatalles_titulo {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    font: $title-font;
+}
+.carousel_titulo {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    text-align: center;
+}
+
+.conocenos_texto {
+    text-align: start;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lookbook_titulo {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    font-family: $title-font;
+}
+.lookbook_texto {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.lookbook_texto-modificado {
+    text-align: start;
+}
+.conocenos_titulo{
+    text-align: start;
+    font-family: $title-font;
+}
+.conocenos_texto {
+    font-family: $font-text;
+}
+.video_titulo {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    font-family: $title-font;
+}
+.video_texto {
+ font-family: $font-text;
+}
+.tienda_titulo {
+    font-family: $title-font;
+}
+.tienda_texto {
+    font-family: $font-text;
+}
+.tienda_titulo-seleccionados {
+    font-family: $title-font;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
