@@ -75,6 +75,11 @@
   padding: 5%;
   font-size: x-large; }
 
+.video_texto-modificado {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: large; }
+
 .video_titulo-index {
   animation-name: aparecer;
   animation-duration: 5s;
@@ -212,6 +217,11 @@
   padding: 5%;
   font-size: x-large; }
 
+.video_texto-modificado {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: large; }
+
 .video_titulo-index {
   animation-name: aparecer;
   animation-duration: 5s;
@@ -348,6 +358,11 @@
   font-family: "Courier New", Courier, monospace;
   padding: 5%;
   font-size: x-large; }
+
+.video_texto-modificado {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: large; }
 
 .video_titulo-index {
   animation-name: aparecer;
@@ -538,6 +553,11 @@ nav {
   padding: 5%;
   font-size: x-large; }
 
+.video_texto-modificado {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: large; }
+
 .video_titulo-index {
   animation-name: aparecer;
   animation-duration: 5s;
@@ -674,6 +694,11 @@ nav {
   font-family: "Courier New", Courier, monospace;
   padding: 5%;
   font-size: x-large; }
+
+.video_texto-modificado {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: large; }
 
 .video_titulo-index {
   animation-name: aparecer;
@@ -828,6 +853,11 @@ nav {
   font-family: "Courier New", Courier, monospace;
   padding: 5%;
   font-size: x-large; }
+
+.video_texto-modificado {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: large; }
 
 .video_titulo-index {
   animation-name: aparecer;
@@ -1037,6 +1067,11 @@ footer {
   padding: 5%;
   font-size: x-large; }
 
+.video_texto-modificado {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: large; }
+
 .video_titulo-index {
   animation-name: aparecer;
   animation-duration: 5s;
@@ -1204,6 +1239,11 @@ nav {
   font-family: "Courier New", Courier, monospace;
   padding: 5%;
   font-size: x-large; }
+
+.video_texto-modificado {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: large; }
 
 .video_titulo-index {
   animation-name: aparecer;

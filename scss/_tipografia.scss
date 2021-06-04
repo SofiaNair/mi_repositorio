@@ -83,6 +83,11 @@ $font-text: 'Courier New', Courier, monospace;
  padding: 5%;
  font-size: x-large;
 }
+.video_texto-modificado {
+    font-family: $font-text;
+    padding: 5%;
+    font-size: large;
+}
 .video_titulo-index {
     animation-name: aparecer;
     animation-duration: 5s;
