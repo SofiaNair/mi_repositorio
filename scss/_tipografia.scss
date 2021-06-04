@@ -4,6 +4,7 @@ $font-text: 'Courier New', Courier, monospace;
 .titulo {
         animation-name: aparecer;
         animation-duration: 5s;
+        font-family: $title-font;
     }
 .textoParrafo {
     font-family: $font-text;
@@ -12,26 +13,53 @@ $font-text: 'Courier New', Courier, monospace;
 .tablatalles_titulo {
     animation-name: aparecer;
     animation-duration: 5s;
-    font: $title-font;
+    font: $font-text;
+}
+.informacion_titulo {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    font-family: $title-font;
+    font-size: x-large;
+    text-align: center;
+}
+.informacion_texto {
+    text-align: start;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-top: 20px;
 }
 .carousel_titulo {
     animation-name: aparecer;
     animation-duration: 5s;
     text-align: center;
 }
+.contacto_texto {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    font-family: $font-text;
+    font-size: xx-large;
+    text-align: end;
 
+
+}
 .conocenos_texto {
     text-align: start;
     font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-top: 20px;
+    
+  
 }
 .lookbook_titulo {
     animation-name: aparecer;
     animation-duration: 5s;
     font-family: $title-font;
+    font-size: xx-large;
 }
 .lookbook_texto {
     font-family: 'Courier New', Courier, monospace;
-    
+    font-size: x-large
+    ;
 }
 .lookbook_texto-modificado {
     text-align: start;
@@ -47,18 +75,67 @@ $font-text: 'Courier New', Courier, monospace;
     animation-name: aparecer;
     animation-duration: 5s;
     font-family: $title-font;
+    padding-bottom: 10px;
+    font-size: xx-large;
 }
 .video_texto {
  font-family: $font-text;
+ padding: 5%;
+ font-size: x-large;
+}
+.video_titulo-index {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    font-family: $title-font;
+    padding: 5%;
+    font-size: xx-large;
+}
+.video_texto-index {
+ font-family: $font-text;
+ padding-top: 5px;
+ padding-bottom: 30px;
+ font-size: large;
 }
 .tienda_titulo {
     font-family: $title-font;
 }
 .tienda_texto {
     font-family: $font-text;
+    font-size: medium;
+    text-align: center;
 }
+.botonComprar {
+    font-family: $font-text;
+    font-size: small;
+}
+.tienda_texto-precio {
+    font-family: $font-text;
+    font-size: small;
+    color: mediumaquamarine;
+    text-align: center;
+
+}
+
 .tienda_titulo-seleccionados {
     font-family: $title-font;
+    padding-top: 20px;
+}
+.mayorista_titulo {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    font-family: $title-font;
+    font-size: xx-large;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.mayorista_texto{
+    text-align: start;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom:10px ;
+
 }
 
 @keyframes aparecer {
@@ -67,5 +144,10 @@ $font-text: 'Courier New', Courier, monospace;
     }
     100% {
         opacity: 1;
+    }
+}
+@media only screen and(max-width: 768px){
+    .informacion_texto {
+        font-size:small;
     }
 }

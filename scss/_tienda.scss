@@ -12,10 +12,15 @@
     margin-top: 30px;
     animation-name: imagenes;
     animation-duration: 6s;
+    align-content: center;
 }
 .tienda_imagen-seleccionados {
     width: ($ancho/4);
     height: ($ancho/4);
+}
+.tienda_imagen-infalible {
+    width: ($ancho/2);
+    height: ($ancho/2);
 }
 .tienda-seleccionados {
     text-align: center;

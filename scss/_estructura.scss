@@ -25,17 +25,57 @@ footer{
     font-family: $title-font;
     
 }
+.informacion {
+    background-image: url(../images/fondo1.jpeg) ;
+}
+.mayorista {
+    background-image: url(../images/fondo1.jpeg) ;
+}
+.mayorista_video {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.tienda {
+    background-color: white;
+    text-align:center;
+    display: inline-block;
+    align-items:center; 
+    justify-content:center;
+}
+.tienda-infalible{
+    background-color: lightslategrey ;
+    display: inline-block;
+    align-items: center;
+    justify-content:center;
+}
 .tablatalles {
     background-color: whitesmoke;
     align-content: space-around;
     text-align: center;
-}
-.mediosPagos {
-    text-align: start;
-    background-image: url(fondo1.jpeg);
 
 }
-.cambioS {
-    text-align: start;
-    background-color: whitesmoke;
+.informacion-infalible{
+    background-color: lightslategrey ;
+    display: inline-block;
+    align-items: center;
+    justify-content:center;
 }
+.informacion_imagen {
+    width: 80%;
+    height: 100%;
+    padding:5%;
+    display: inline-block;
+    align-items: center;
+    justify-content:center;
+}
+
+.dudasReclamos{
+    padding-top:30px;
+
+}
+.form-label {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+

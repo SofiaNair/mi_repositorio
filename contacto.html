@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Elegante sport para todos los días. Ropa femenina. Realizamos venta mayorista. Vendemos a toda Argentina">
-    <meta name="keywords"  content="contacto, formulario, email, Dudas, Comentarios, Reclamos seguinos">
+    <meta name="keywords"  content="contacto, formulario, email, Dudas, Comentarios, Reclamos seguinos, instagram">
     <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
@@ -46,47 +46,66 @@
                     </div>
                 </nav>
             </header>
-            <div class=" conocenos col col-12 col-xxl-12">
-                <h1 class="titulo"> Contacto</h1>
-                <hr>
-                <h2>Formulario de contacto</h2>
-                <form>
-                    <div class="col-md-4 position-relative">
-                        <label for="validationTooltip01" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" iid="exampleFormControlInput1" placeholder="Nombre">
-                        <div class="valid-tooltip">
-                            Completo!
+            <div class="row">
+                <div class="conocenos col-12 col-md-6 col-xxl-6">
+                    <h1 class="titulo"> Contacto</h1>
+                    <hr>
+                    <h2 class="titulo">Formulario de contacto</h2>
+                    <form>
+                        <div class="col-md-4 position-relative">
+                            <label for="validationTooltip01" class="form-label"> Nombre</label>
+                            <input type="text" class="form-control" iid="exampleFormControlInput1" placeholder="Nombre">
+                            <div class="valid-tooltip">
+                                Completo!
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 position-relative">
-                        <label for="validationTooltip02" class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+                        <div class="col-md-4 position-relative">
+                            <label for="validationTooltip02" class="form-label"> Apellido</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
 
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label"> Dudas/Comentarios/Reclamos</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"> Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-3 dudasReclamos">
+                            <label for="exampleFormControlTextarea1" class="form-label"> Dudas/Comentarios/Reclamos</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"> Acepto términos y condiciones</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                    <br>
+                    <p class="contacto_texto"> y GRACIAS por confiar en nosotras. </p>
+                </div>
+                <div class="video col-12 col-md-6 col-xxl-6">
+                    <h2 class="video_titulo"> Preparate para conquistar </h2>
+                        <video src="images/contactovideo.mp4"  controls  loop width="80%" height="60%" ></video>
+                    <p class="video_texto"> ¡Esperamos volver a verte pronto! </p>
+                    <p class="video_texto"> Buscanos en todas nuestras redes: subimos ofertas, sorteos y todos los looks más buscados de la temporada.</p>
+                </div>
             </div>
-            <div class="seguinosRedes row"> 
-                <h5> Seguinos en nuestras redes</h5> 
-                <p> En instagram encontranos en @al.acecho</p> <br>
-            </div>
-            <footer class="footer row">
-                <h5> Al Acecho </h5>        
-                <p>Gascón 1227,(CP 1181) Capital Federal, Argentina <br>
-                © Todos los derechos reservados 2021 - Desarrollado por Sofinic <br>
-                </p>
+            <footer class="row">
+                <div class="seguinosRedes col-12 col-md-4 col xxl-4"> 
+                    <h5> Seguinos en nuestras redes</h5> 
+                    <p> <img src="images/instagram.svg"> Encontranos en @al.acecho </p> <br>
+                </div>
+                <div class="seguinosRedes col-12 col-md-4 col xxl-4">
+                    <h5>Contacto <img src="images/phone.svg"></h5>
+                    <p> Tel: 011-XXXX-XXXX <br>
+                        Wsp: 011-156-XXXXX
+                    </p>
+                    <p> <img src="images/mail.svg"> Mail: contacto@alacecho.com.ar</p>
+                </div>
+                <div class="footer col-12 col-md-4 col xxl-4">
+                    <h5> Al Acecho </h5>        
+                    <p>Gascón 1227,(CP 1181) Capital Federal, Argentina <br>
+                    © Todos los derechos reservados 2021 - Desarrollado por Sofinic <br>
+                    </p>
+                </div>
             </footer>
         </div>
     </div>

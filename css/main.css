@@ -1,6 +1,7 @@
 .titulo {
   animation-name: aparecer;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
 
 .textoParrafo {
   font-family: "Courier New", Courier, monospace;
@@ -9,24 +10,48 @@
 .tablatalles_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font: "Orelega One"; }
+  font: "Courier New", Courier, monospace; }
+
+.informacion_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: x-large;
+  text-align: center; }
+
+.informacion_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .carousel_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
   text-align: center; }
 
+.contacto_texto {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-align: end; }
+
 .conocenos_texto {
   text-align: start;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .lookbook_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  font-size: xx-large; }
 
 .lookbook_texto {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; }
 
 .lookbook_texto-modificado {
   text-align: start; }
@@ -41,29 +66,79 @@
 .video_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-bottom: 10px;
+  font-size: xx-large; }
 
 .video_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: x-large; }
+
+.video_titulo-index {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding: 5%;
+  font-size: xx-large; }
+
+.video_texto-index {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-size: large; }
 
 .tienda_titulo {
   font-family: "Orelega One"; }
 
 .tienda_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: center; }
+
+.botonComprar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small; }
+
+.tienda_texto-precio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: mediumaquamarine;
+  text-align: center; }
 
 .tienda_titulo-seleccionados {
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-top: 20px; }
+
+.mayorista_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.mayorista_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px; }
 
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media only screen and (max-width: 768px) {
+  .informacion_texto {
+    font-size: small; } }
 
 .titulo {
   animation-name: aparecer;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
 
 .textoParrafo {
   font-family: "Courier New", Courier, monospace;
@@ -72,24 +147,48 @@
 .tablatalles_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font: "Orelega One"; }
+  font: "Courier New", Courier, monospace; }
+
+.informacion_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: x-large;
+  text-align: center; }
+
+.informacion_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .carousel_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
   text-align: center; }
 
+.contacto_texto {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-align: end; }
+
 .conocenos_texto {
   text-align: start;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .lookbook_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  font-size: xx-large; }
 
 .lookbook_texto {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; }
 
 .lookbook_texto-modificado {
   text-align: start; }
@@ -104,25 +203,217 @@
 .video_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-bottom: 10px;
+  font-size: xx-large; }
 
 .video_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: x-large; }
+
+.video_titulo-index {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding: 5%;
+  font-size: xx-large; }
+
+.video_texto-index {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-size: large; }
 
 .tienda_titulo {
   font-family: "Orelega One"; }
 
 .tienda_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: center; }
+
+.botonComprar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small; }
+
+.tienda_texto-precio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: mediumaquamarine;
+  text-align: center; }
 
 .tienda_titulo-seleccionados {
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-top: 20px; }
+
+.mayorista_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.mayorista_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px; }
 
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media only screen and (max-width: 768px) {
+  .informacion_texto {
+    font-size: small; } }
+
+.titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
+
+.textoParrafo {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end; }
+
+.tablatalles_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font: "Courier New", Courier, monospace; }
+
+.informacion_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: x-large;
+  text-align: center; }
+
+.informacion_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
+
+.carousel_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  text-align: center; }
+
+.contacto_texto {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-align: end; }
+
+.conocenos_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
+
+.lookbook_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large; }
+
+.lookbook_texto {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; }
+
+.lookbook_texto-modificado {
+  text-align: start; }
+
+.conocenos_titulo {
+  text-align: start;
+  font-family: "Orelega One"; }
+
+.conocenos_texto {
+  font-family: "Courier New", Courier, monospace; }
+
+.video_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding-bottom: 10px;
+  font-size: xx-large; }
+
+.video_texto {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: x-large; }
+
+.video_titulo-index {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding: 5%;
+  font-size: xx-large; }
+
+.video_texto-index {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-size: large; }
+
+.tienda_titulo {
+  font-family: "Orelega One"; }
+
+.tienda_texto {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: center; }
+
+.botonComprar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small; }
+
+.tienda_texto-precio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: mediumaquamarine;
+  text-align: center; }
+
+.tienda_titulo-seleccionados {
+  font-family: "Orelega One";
+  padding-top: 20px; }
+
+.mayorista_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.mayorista_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@media only screen and (max-width: 768px) {
+  .informacion_texto {
+    font-size: small; } }
+
+.header_nav {
+  background-color: #cf5b8c; }
+
+nav {
+  background-color: #cf5b8c; }
 
 .lookbook {
   background-color: white;
@@ -154,11 +445,26 @@
 
 .conocenos {
   background: url(../images/fondo1.jpeg);
-  align-content: flex-start; }
+  align-content: flex-start;
+  text-align: center; }
+
+.conocenos_imagen {
+  background-color: lightslategrey;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
+
+.conocenos_imagen-medidas {
+  width: 90%;
+  padding: 5%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
 
 .titulo {
   animation-name: aparecer;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
 
 .textoParrafo {
   font-family: "Courier New", Courier, monospace;
@@ -167,24 +473,48 @@
 .tablatalles_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font: "Orelega One"; }
+  font: "Courier New", Courier, monospace; }
+
+.informacion_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: x-large;
+  text-align: center; }
+
+.informacion_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .carousel_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
   text-align: center; }
 
+.contacto_texto {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-align: end; }
+
 .conocenos_texto {
   text-align: start;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .lookbook_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  font-size: xx-large; }
 
 .lookbook_texto {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; }
 
 .lookbook_texto-modificado {
   text-align: start; }
@@ -199,19 +529,64 @@
 .video_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-bottom: 10px;
+  font-size: xx-large; }
 
 .video_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: x-large; }
+
+.video_titulo-index {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding: 5%;
+  font-size: xx-large; }
+
+.video_texto-index {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-size: large; }
 
 .tienda_titulo {
   font-family: "Orelega One"; }
 
 .tienda_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: center; }
+
+.botonComprar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small; }
+
+.tienda_texto-precio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: mediumaquamarine;
+  text-align: center; }
 
 .tienda_titulo-seleccionados {
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-top: 20px; }
+
+.mayorista_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.mayorista_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px; }
 
 @keyframes aparecer {
   0% {
@@ -219,9 +594,14 @@
   100% {
     opacity: 1; } }
 
+@media only screen and (max-width: 768px) {
+  .informacion_texto {
+    font-size: small; } }
+
 .titulo {
   animation-name: aparecer;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
 
 .textoParrafo {
   font-family: "Courier New", Courier, monospace;
@@ -230,24 +610,48 @@
 .tablatalles_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font: "Orelega One"; }
+  font: "Courier New", Courier, monospace; }
+
+.informacion_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: x-large;
+  text-align: center; }
+
+.informacion_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .carousel_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
   text-align: center; }
 
+.contacto_texto {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-align: end; }
+
 .conocenos_texto {
   text-align: start;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .lookbook_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  font-size: xx-large; }
 
 .lookbook_texto {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; }
 
 .lookbook_texto-modificado {
   text-align: start; }
@@ -262,25 +666,74 @@
 .video_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-bottom: 10px;
+  font-size: xx-large; }
 
 .video_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: x-large; }
+
+.video_titulo-index {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding: 5%;
+  font-size: xx-large; }
+
+.video_texto-index {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-size: large; }
 
 .tienda_titulo {
   font-family: "Orelega One"; }
 
 .tienda_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: center; }
+
+.botonComprar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small; }
+
+.tienda_texto-precio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: mediumaquamarine;
+  text-align: center; }
 
 .tienda_titulo-seleccionados {
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-top: 20px; }
+
+.mayorista_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.mayorista_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px; }
 
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media only screen and (max-width: 768px) {
+  .informacion_texto {
+    font-size: small; } }
 
 .header_nav {
   background-color: #cf5b8c; }
@@ -301,7 +754,8 @@ nav {
 
 .titulo {
   animation-name: aparecer;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
 
 .textoParrafo {
   font-family: "Courier New", Courier, monospace;
@@ -310,24 +764,48 @@ nav {
 .tablatalles_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font: "Orelega One"; }
+  font: "Courier New", Courier, monospace; }
+
+.informacion_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: x-large;
+  text-align: center; }
+
+.informacion_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .carousel_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
   text-align: center; }
 
+.contacto_texto {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-align: end; }
+
 .conocenos_texto {
   text-align: start;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .lookbook_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  font-size: xx-large; }
 
 .lookbook_texto {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; }
 
 .lookbook_texto-modificado {
   text-align: start; }
@@ -342,25 +820,74 @@ nav {
 .video_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-bottom: 10px;
+  font-size: xx-large; }
 
 .video_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: x-large; }
+
+.video_titulo-index {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding: 5%;
+  font-size: xx-large; }
+
+.video_texto-index {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-size: large; }
 
 .tienda_titulo {
   font-family: "Orelega One"; }
 
 .tienda_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: center; }
+
+.botonComprar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small; }
+
+.tienda_texto-precio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: mediumaquamarine;
+  text-align: center; }
 
 .tienda_titulo-seleccionados {
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-top: 20px; }
+
+.mayorista_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.mayorista_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px; }
 
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media only screen and (max-width: 768px) {
+  .informacion_texto {
+    font-size: small; } }
 
 .row > div {
   padding: 30px; }
@@ -383,22 +910,60 @@ footer {
   font-size: medium;
   font-family: "Orelega One"; }
 
+.informacion {
+  background-image: url(../images/fondo1.jpeg); }
+
+.mayorista {
+  background-image: url(../images/fondo1.jpeg); }
+
+.mayorista_video {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+.tienda {
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
+
+.tienda-infalible {
+  background-color: lightslategrey;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
+
 .tablatalles {
   background-color: whitesmoke;
   align-content: space-around;
   text-align: center; }
 
-.mediosPagos {
-  text-align: start;
-  background-image: url(fondo1.jpeg); }
+.informacion-infalible {
+  background-color: lightslategrey;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
 
-.cambioS {
-  text-align: start;
-  background-color: whitesmoke; }
+.informacion_imagen {
+  width: 80%;
+  height: 100%;
+  padding: 5%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
+
+.dudasReclamos {
+  padding-top: 30px; }
+
+.form-label {
+  padding-bottom: 2px;
+  padding-top: 2px; }
 
 .titulo {
   animation-name: aparecer;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
 
 .textoParrafo {
   font-family: "Courier New", Courier, monospace;
@@ -407,24 +972,48 @@ footer {
 .tablatalles_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font: "Orelega One"; }
+  font: "Courier New", Courier, monospace; }
+
+.informacion_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: x-large;
+  text-align: center; }
+
+.informacion_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .carousel_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
   text-align: center; }
 
+.contacto_texto {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-align: end; }
+
 .conocenos_texto {
   text-align: start;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .lookbook_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  font-size: xx-large; }
 
 .lookbook_texto {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; }
 
 .lookbook_texto-modificado {
   text-align: start; }
@@ -439,25 +1028,74 @@ footer {
 .video_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-bottom: 10px;
+  font-size: xx-large; }
 
 .video_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: x-large; }
+
+.video_titulo-index {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding: 5%;
+  font-size: xx-large; }
+
+.video_texto-index {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-size: large; }
 
 .tienda_titulo {
   font-family: "Orelega One"; }
 
 .tienda_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: center; }
+
+.botonComprar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small; }
+
+.tienda_texto-precio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: mediumaquamarine;
+  text-align: center; }
 
 .tienda_titulo-seleccionados {
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-top: 20px; }
+
+.mayorista_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.mayorista_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px; }
 
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media only screen and (max-width: 768px) {
+  .informacion_texto {
+    font-size: small; } }
 
 .header_nav {
   background-color: #cf5b8c; }
@@ -474,11 +1112,16 @@ nav {
   margin-left: 40px;
   margin-top: 30px;
   animation-name: imagenes;
-  animation-duration: 6s; }
+  animation-duration: 6s;
+  align-content: center; }
 
 .tienda_imagen-seleccionados {
   width: 22.5%;
   height: 22.5%; }
+
+.tienda_imagen-infalible {
+  width: 45%;
+  height: 45%; }
 
 .tienda-seleccionados {
   text-align: center;
@@ -487,7 +1130,8 @@ nav {
 
 .titulo {
   animation-name: aparecer;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  font-family: "Orelega One"; }
 
 .textoParrafo {
   font-family: "Courier New", Courier, monospace;
@@ -496,24 +1140,48 @@ nav {
 .tablatalles_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font: "Orelega One"; }
+  font: "Courier New", Courier, monospace; }
+
+.informacion_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: x-large;
+  text-align: center; }
+
+.informacion_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .carousel_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
   text-align: center; }
 
+.contacto_texto {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-align: end; }
+
 .conocenos_texto {
   text-align: start;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 20px; }
 
 .lookbook_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  font-size: xx-large; }
 
 .lookbook_texto {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; }
 
 .lookbook_texto-modificado {
   text-align: start; }
@@ -528,25 +1196,74 @@ nav {
 .video_titulo {
   animation-name: aparecer;
   animation-duration: 5s;
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-bottom: 10px;
+  font-size: xx-large; }
 
 .video_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  padding: 5%;
+  font-size: x-large; }
+
+.video_titulo-index {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  padding: 5%;
+  font-size: xx-large; }
+
+.video_texto-index {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-size: large; }
 
 .tienda_titulo {
   font-family: "Orelega One"; }
 
 .tienda_texto {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: center; }
+
+.botonComprar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small; }
+
+.tienda_texto-precio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: mediumaquamarine;
+  text-align: center; }
 
 .tienda_titulo-seleccionados {
-  font-family: "Orelega One"; }
+  font-family: "Orelega One";
+  padding-top: 20px; }
+
+.mayorista_titulo {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  font-family: "Orelega One";
+  font-size: xx-large;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.mayorista_texto {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px; }
 
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media only screen and (max-width: 768px) {
+  .informacion_texto {
+    font-size: small; } }
 
 .header_nav {
   background-color: #cf5b8c; }
