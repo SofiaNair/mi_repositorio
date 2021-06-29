@@ -39,14 +39,14 @@
 }
 .conocenos_imagen { 
     background-color: lightslategrey ;
-    display: inline-block;
-    align-items: center;
-    justify-content:center;
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-end;
 }
 .conocenos_imagen-medidas{
     width: $ancho;
     padding:5%;
-    display: inline-block;
+    display: flex;
     align-items: center;
     justify-content:center;
 }

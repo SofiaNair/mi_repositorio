@@ -19,13 +19,13 @@ $font-text: 'Courier New', Courier, monospace;
     animation-name: aparecer;
     animation-duration: 5s;
     font-family: $title-font;
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
 }
 .informacion_texto {
     text-align: start;
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: x-large;
     padding-top: 20px;
 }
 .carousel_titulo {
@@ -54,12 +54,20 @@ $font-text: 'Courier New', Courier, monospace;
     animation-name: aparecer;
     animation-duration: 5s;
     font-family: $title-font;
-    font-size: xx-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .lookbook_texto {
     font-family: 'Courier New', Courier, monospace;
-    font-size: x-large
-    ;
+    font-size: xx-large;
+    padding-top: 20px;
+    text-align: center;
+}
+.lookbook_texto-centrado {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    padding-top: 60px;
+    text-align: center;
 }
 .lookbook_texto-modificado {
     text-align: start;
@@ -70,6 +78,7 @@ $font-text: 'Courier New', Courier, monospace;
 }
 .conocenos_texto {
     font-family: $font-text;
+    font-size: large;
 }
 .video_titulo {
     animation-name: aparecer;
@@ -97,25 +106,25 @@ $font-text: 'Courier New', Courier, monospace;
 }
 .video_texto-index {
  font-family: $font-text;
- padding-top: 5px;
+ padding-top: 15px;
  padding-bottom: 30px;
- font-size: large;
+ font-size: xx-large;
 }
 .tienda_titulo {
     font-family: $title-font;
 }
 .tienda_texto {
     font-family: $font-text;
-    font-size: medium;
+    font-size: large;
     text-align: center;
 }
 .botonComprar {
     font-family: $font-text;
-    font-size: small;
+    font-size: medium;
 }
 .tienda_texto-precio {
     font-family: $font-text;
-    font-size: small;
+    font-size: x-large;
     color: mediumaquamarine;
     text-align: center;
 
@@ -151,8 +160,36 @@ $font-text: 'Courier New', Courier, monospace;
         opacity: 1;
     }
 }
-@media only screen and(max-width: 768px){
+@media screen and(max-width: 1023px){
     .informacion_texto {
         font-size:small;
     }
+    .lookbook_texto{
+        font-size: x-large;
+    }
+    .lookbook_texto-centrado {
+        font-size:x-large;
+    }
+    .conocenos_texto {
+        font-size: large;
+    }
+    .video_texto {
+        font-size: large;
+    }
+    .video_texto-index {
+        font-size: x-large;
+    }
+    .mayorista_texto {
+        font-size: large;
+    }
+    .informacion_titulo {
+        font-size: large;
+    }
+    .informacion_texto {
+        font-size: large;
+    }
+    .tienda_texto-precio {
+        font-size: large;
+    }
 }
+
